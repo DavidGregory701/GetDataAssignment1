@@ -7,15 +7,15 @@ run_anlaysis.R
 
 ## Variables
 
-*Subject: An integer identifying the person being measured
-*Activity: The activity being performed.  One of 
+* Subject: An integer identifying the person being measured
+* Activity: The activity being performed.  One of 
     1   WALKING
     2	WALKING_UPSTAIRS
     3	WALKING_DOWNSTAIRS
 	4	SITTING
 	5	STANDING
 	6	LAYING
-*The remaining 66 variables correspond to measurements in the UCI HAR dataset of the same
+* The remaining 66 variables correspond to measurements in the UCI HAR dataset of the same
 name and represent the mean of that variable across all measurements for the indicated subject and activity.  All units are the same as those for the original UCI HAR dataset variables. Only
 variables representing the mean or standard deviation of a measurement are included.  The
 specific variables included in this dataset are:
